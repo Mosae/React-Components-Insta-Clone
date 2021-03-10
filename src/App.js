@@ -9,6 +9,7 @@ import './App.css';
 import SearchBar from './components/SearchBar/SearchBarContainer';
 import PostsPage from './components/PostsContainer/PostsPage';
 import dummyData from './dummy-data';
+import Footer from './components/Footer/credits';
 // import the PostsPage and SearchBar and add them to the App
 
 const App = () => {
@@ -20,6 +21,7 @@ const App = () => {
 			<div className="App">
 				<SearchBar />
 				<PostsPage parentData={posts} />
+				<Footer />
 			</div>
 		</>
 	);
